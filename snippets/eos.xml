@@ -52,24 +52,24 @@
   <project path="device/lineage/sepolicy" name="e/os/android_device_lineage_sepolicy" remote="e" />
   <project path="frameworks/base" name="e/os/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="frameworks/libs/net" name="e/os/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="e" />
-  <project path="frameworks/libs/systemui" name="e/os/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="e" />
-  <project path="lineage-sdk" name="e/os/android_lineage-sdk" remote="e" />
+  <project path="frameworks/libs/systemui" name="e/os/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="lineage-sdk" name="e/os/android_lineage-sdk" remote="e" revision="epic6-s-icon-redesign" />
   <project path="packages/apps/Backgrounds" name="e/os/android_packages_apps_Backgrounds" remote="e" />
-  <project path="packages/apps/Contacts" name="e/os/android_packages_apps_Contacts" groups="pdk-fs" remote="e" />
-  <project path="packages/apps/Dialer" name="e/os/android_packages_apps_Dialer" groups="pdk-fs" remote="e" />
-  <project path="packages/apps/DeskClock" name="e/os/android_packages_apps_DeskClock" groups="pdk-fs" remote="e" />
-  <project path="packages/apps/DocumentsUI" name="e/os/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="e" />
-  <project path="packages/apps/Eleven" name="e/os/android_packages_apps_Eleven" remote="e" />
-  <project path="packages/apps/Etar" name="e/os/android_packages_apps_Etar" remote="e" />
-  <project path="packages/apps/ExactCalculator" name="e/os/android_packages_apps_ExactCalculator" remote="e" />
-  <project path="packages/apps/Gallery2" name="e/os/android_packages_apps_Gallery2" groups="pdk-fs" remote="e" />
+  <project path="packages/apps/Contacts" name="e/os/android_packages_apps_Contacts" groups="pdk-fs" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="packages/apps/Dialer" name="e/os/android_packages_apps_Dialer" groups="pdk-fs" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="packages/apps/DeskClock" name="e/os/android_packages_apps_DeskClock" groups="pdk-fs" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="packages/apps/DocumentsUI" name="e/os/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="packages/apps/Eleven" name="e/os/android_packages_apps_Eleven" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="packages/apps/Etar" name="e/os/android_packages_apps_Etar" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="packages/apps/ExactCalculator" name="e/os/android_packages_apps_ExactCalculator" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="packages/apps/Gallery2" name="e/os/android_packages_apps_Gallery2" groups="pdk-fs" remote="e" revision="epic6-s-icon-redesign" />
   <project path="packages/apps/ImsServiceEntitlement" name="e/os/android_packages_apps_ImsServiceEntitlement" groups="pdk-fs" remote="e" />
-  <project path="packages/apps/LineageParts" name="e/os/android_packages_apps_LineageParts" remote="e" />
-  <project path="packages/apps/Recorder" name="e/os/android_packages_apps_Recorder" remote="e" />
-  <project path="packages/apps/Settings" name="e/os/android_packages_apps_Settings" groups="pdk-fs" remote="e" />
+  <project path="packages/apps/LineageParts" name="e/os/android_packages_apps_LineageParts" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="packages/apps/Recorder" name="e/os/android_packages_apps_Recorder" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="packages/apps/Settings" name="e/os/android_packages_apps_Settings" groups="pdk-fs" remote="e" revision="epic6-s-icon-redesign" />
   <project path="packages/apps/SettingsIntelligence" name="e/os/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="e" />
-  <project path="packages/apps/SetupWizard" name="e/os/android_packages_apps_SetupWizard" remote="e"/>
-  <project path="packages/apps/ThemePicker" name="e/os/android_packages_apps_ThemePicker" groups="pdk-fs" remote="e" />
+  <project path="packages/apps/SetupWizard" name="e/os/android_packages_apps_SetupWizard" remote="e" revision="epic6-s-icon-redesign"/>
+  <project path="packages/apps/ThemePicker" name="e/os/android_packages_apps_ThemePicker" groups="pdk-fs" remote="e" revision="epic6-s-icon-redesign" />
   <project path="packages/apps/Trebuchet" name="e/os/android_packages_apps_Trebuchet" remote="e" />
   <project path="packages/apps/Updater" name="e/os/android_packages_apps_Updater" remote="e" />
   <project path="packages/apps/WallpaperPicker2" name="e/os/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="e" />
@@ -79,8 +79,8 @@
   <project path="packages/modules/Permission" name="e/os/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="packages/providers/MediaProvider" name="e/os/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="packages/services/Telephony" name="e/os/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="e" />
-  <project path="packages/overlays/Lineage" name="e/os/android_packages_overlays_Lineage" remote="e" />
-  <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
+  <project path="packages/overlays/Lineage" name="e/os/android_packages_overlays_Lineage" remote="e" revision="epic6-s-icon-redesign" />
+  <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" revision="epic6-s-icon-redesign" />
 
   <!-- ih8sn -->
   <project path="external/ih8sn" name="e/os/ih8sn" remote="e" revision="master" />
@@ -92,13 +92,13 @@
   <project path="packages/services/SplitInstallService" name="e/os/android_packages_services_SplitInstallService" remote="e" revision="main" />
 
   <!-- PreBuilts -->
-  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks_lfs" remote="e" revision="main" />
+  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks_lfs" remote="e" revision="epic6-s-icon-redesign" />
 
   <!-- PicoTTS -->
   <project path="external/svox" name="e/os/picotts" remote="e" />
 
   <!-- vendor /e/os -->
-  <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" />
+  <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" revision="epic6-s-icon-redesign" />
 
   <!-- weather -->
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" revision="lineage-16.0" />
